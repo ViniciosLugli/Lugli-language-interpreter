@@ -1,7 +1,7 @@
 # Lugli language interpreter
-My 'Lugli' language interpreter for learning purposes, written in rust. This language is to be a subset for other purposes, for example, a simple language to use on math problems and logical learning, but also it is a good example of how to write a compiler.
+My 'Lugli' language interpreter for learning purposes, written in rust. This language is to be a subset for other purposes, for example, a simple language to use on math problems and logical learning, but also it is a good example of how to write a interpreter.
 
-# Compiler usage / commands
+# Interpreter usage / commands
 ### Run
 ```bash
 [Executable] run <file path>
@@ -10,10 +10,10 @@ Example: `Lugli.exe run foo.lg`
 
 ---
 
-# Compiler features
+# Interpreter features
 * [x] tokenizer / lexer
 * [x] parser
-* [x] runtime (compiler)
+* [x] runtime (interpreter)
 * [x] Module system (simple creation of embed libs)
 * [ ] Linker (for other languages)
 * [ ] Optimizer / FMT
